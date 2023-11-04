@@ -7,6 +7,13 @@
 body {
   background: rgba(0, 10, 31, 1);
   font-family: 'Jost';
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+@media only screen and (max-width :600px ) {
+  body {
+    background-color: lightblue;
+  }
 }
 
 
@@ -60,7 +67,9 @@ body {
   bottom: 0;
   right: 0;
   left: 0;
+  text-align: center;
 }
+
 
 #card h1 {
   text-align: center;
